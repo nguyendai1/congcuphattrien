@@ -9,9 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class AutoAddAddress extends BaseClass{
+public class themdiachi extends BaseClass{
     private WebDriver driver;
-    public AutoAddAddress() {
+    public themdiachi() {
         // Khởi tạo đường dẫn tới thư mục chứa ChromeDriver
         String driverPath = "D:\\\\\\\\Cai\\\\\\\\Eclipse\\\\\\\\testpp\\\\\\\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", driverPath);
