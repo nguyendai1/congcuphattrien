@@ -10,10 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class ForgetPassWord {
+public class QuenMatKhau {
 	private WebDriver driver;
     
-    public ForgetPassWord() {
+    public QuenMatKhau() {
         // Khởi tạo đường dẫn tới thư mục chứa ChromeDriver
         String driverPath = "D:\\\\Cai\\\\Eclipse\\\\testpp\\\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", driverPath);
@@ -61,7 +61,7 @@ public void exit() {
     driver.quit();
 }
     public static void main(String[] args) {
-    	ForgetPassWord QMK = new ForgetPassWord();
+    	QuenMatKhau QMK = new QuenMatKhau();
     	QMK.login("adminaccount","Adminaccount1");
     	QMK.clickQMK();
     	QMK.inputEmail();
